@@ -9,7 +9,7 @@ Statistical Classification
     `Numpy <http://www.numpy.org/>`_ installed.
 
 To train and use the statistical classification algorithms in this library you
-will need to write code that specifies your problem. 
+will need to write code that specifies your problem.
 Essentially, this boils down to:
 
  - Define some **attributes** to be used as the input *feature vector* by the
@@ -32,7 +32,7 @@ the classification task is to identify the language of each sentence. Then,
 it's perfectly valid for our dataset to be a ``list`` of
 ``(target_language, sentence_text)`` objects.
 
-The example of language classification followed here is fully coded in 
+The example of language classification followed here is fully coded in
 ``simpleai/samples/machine_learning/language_classification.py``.
 
 In the code, each observation is represented as a named tuple instead of just a
@@ -109,7 +109,7 @@ but it's not stricly necessary. The only requirement that an attribute has to
 meet is to be a callable object (a function, a method,
 a class that defines ``__call__``, etc.).
 
-So, a bare minumum valid attribute that counts the letter ``"a"`` in a
+So, a bare minimum valid attribute that counts the letter ``"a"`` in a
 observation could have been like this:
 
 .. code-block:: python
