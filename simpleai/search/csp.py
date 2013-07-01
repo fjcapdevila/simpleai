@@ -165,7 +165,7 @@ def min_conflicts(problem, initial_assignment=None, iterations_limit=0):
     initial_assignment the initial assignment, or None to generate a random
     one.
     If iterations_limit is specified, the algorithm will end after that
-    number of iterations. Else, it will continue until if finds an assignment
+    number of iterations. Else, it will continue until it finds an assignment
     that doesn't generate conflicts (a solution).
     '''
     assignment = {}
