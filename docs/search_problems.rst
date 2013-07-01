@@ -46,7 +46,7 @@ Example:
 
 if you want to use search algorithms that consider the cost of actions on their logic (like uniform cost search), then you will have to implement an extra method in your class:
 
-* **cost**: this methods receives two states and an action, and must return the cost of applying the action from the first state to the seccond state.
+* **cost**: this methods receives two states and an action, and must return the cost of applying the action from the first state to the second state.
 
 Example:
 
